@@ -42,13 +42,3 @@ GSAP powers the hero entrance, the floating "bean" details, and
 scroll-triggered reveals across every section (`src/components/Reveal.js`
 wraps GSAP + ScrollTrigger so any section can animate in on scroll with one
 component).
-
-## Before this goes live
-
-1. Swap in real photography (currently no images are used — add a
-   `public/` folder with real shots of the cafe, drinks and food).
-2. Replace sample hours, phone number, and full menu pricing.
-3. Wire `BookingForm` up to a real destination — email notification, a
-   Google Sheet, or a booking API (Tock, SevenRooms, or a simple
-   serverless function).
-4. Add Instagram feed embed / link once handle is confirmed.
