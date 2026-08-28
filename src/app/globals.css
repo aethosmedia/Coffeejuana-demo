@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-display: "Fraunces", ui-serif, Georgia, serif;
+  --font-body: "Inter", ui-sans-serif, system-ui, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #FBF3E7;
+  color: #1A120B;
+}
+
+.grain-bg {
+  background-image: radial-gradient(circle at 1px 1px, rgba(0,0,0,0.05) 1px, transparent 0);
+  background-size: 22px 22px;
+}
+
+.text-outline {
+  -webkit-text-stroke: 1.5px rgba(251,243,231,0.5);
+  color: transparent;
+}
+
+::selection {
+  background: #0C7642;
+  color: #FBF3E7;
+}
